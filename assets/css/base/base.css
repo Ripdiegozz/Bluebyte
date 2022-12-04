@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+* > h2, h1, h3{
+    font-family: 'Exo 2', sans-serif;
+    font-weight: bold;
+}
+
+* > a, p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+* > button, .cl-checkbox{
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
+}
+
+* > input{
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.container{
+    background-color: #e9e8e8;
+    padding-top: 3.5em;
+}
+
+.flex{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.flex__column{
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.fa-magnifying-glass{
+    padding: 10px;
+    font-size: 16px;
+}
+
+.fa-circle-user{
+    font-size: 27px;
+}
+
+.fa-cart-shopping{
+    font-size: 26px;
+    margin: 0 0 0 2em;
+}

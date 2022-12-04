@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bluebyte | Shop</title>
+    <link rel="stylesheet" href="../assets/css/base/reset.css">
+    <link rel="stylesheet" href="../assets/css/base/base.css">
+    <link rel="stylesheet" href="../assets/css/header.css">
+    <link rel="stylesheet" href="../assets/css/products.css">
+    <link rel="stylesheet" href="../assets/css/components/product_card.css">
+    <link rel="stylesheet" href="../assets/css/components/product-page.css">
+    <link rel="stylesheet" href="../assets/css/footer.css">
+    <link rel="shortcut icon" href="../assets/img/favicon.png" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/a8f367ec01.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@600;700&family=Martel&family=Montserrat:wght@400;700&family=Titillium+Web:ital,wght@0,600;1,600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header flex">
+        <nav class="nav__box">
+            <ul class="nav__menu flex">
+                <li class="nav__menu--btn">
+                    <a href="../index.html">
+                        <h1 class="page-logo">BLUEBYTE</h1> 
+                    </a>
+                </li>
+                <li class="nav__menu--btn">
+                    <div class="search__group flex">
+                        <input type="text" name="search-bar" id="search-bar" class="search-bar" placeholder="Buscar un producto...">
+                        <button name="search-bar" type="submit" class="search__btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+                    </div>
+                </li>
+                <li class="nav__menu--btn flex">
+                    <a href="../login.html">
+                        <div class="flex sign-in">
+                            <i class="fa-solid fa-circle-user"></i>
+                            <div class="sign__in-btn__text flex">
+                                <p>Entrar</p>
+                            </div>
+                        </div>
+                    </a>
+                    <i class="fa-solid fa-cart-shopping cart-btn"></i>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container flex__column">
+        <section class="product-box flex">
+            <div class="product-image flex">
+                <img src="../assets/img/products/ryzen-5-5600g.jpg" alt="Ryzen-5-img">
+            </div>
+            <div class="product__description-box flex__column">
+                <div class="product-header">
+                    <h2>Procesador Ryzen 5 5600g - @3.6ghz - Graficos Radeon Vega 9</h2>
+                </div>    
+                <div class="product-description flex__column">
+                    <h2>$10.000</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda cumque itaque fugiat vel. Assumenda cumque itaque fugiat vel<br><br><a href="https://www.amd.com/es/products/apu/amd-ryzen-5-5600g" target="_blank">Ver ficha técnica</a></p>
+                </div>
+                <div class="product-button">
+                    <button class="btn">
+                        Comprar ahora
+                    </button>
+                    <button class="btn">
+                        Agregar al carrito
+                    </button>
+                </div>
+            </div>
+        </section>
+        <section class="products__row">
+            <div class="products__header flex">
+                <h2>Productos relacionados</h2>
+                <a href="../products.html">Ver todos<i class="fa-solid fa-arrow-right-long"></i></a>
+            </div>
+            <div class="cards__box flex">
+                <div class="product__card flex__column">
+                    <a href="./prt-00001.html"><img src="../assets/img/products/ryzen-5-5600g.jpg" alt="product"></a>
+                    <h3 class="product__card-title">product title sample</h3>
+                    <p class="product__card-price">$ 10.000</p>
+                    <a href="./prt-00001.html" class="product__card-link">Ver mas...</a>
+                </div>
+                <div class="product__card flex__column">
+                    <a href="./prt-00001.html"><img src="../assets/img/products/ryzen-5-5600g.jpg" alt="product"></a>
+                    <h3 class="product__card-title">product title sample</h3>
+                    <p class="product__card-price">$ 10.000</p>
+                    <a href="./prt-00001.html" class="product__card-link">Ver mas...</a>
+                </div>
+                <div class="product__card flex__column">
+                    <a href="./prt-00001.html"><img src="../assets/img/products/ryzen-5-5600g.jpg" alt="product"></a>
+                    <h3 class="product__card-title">product title sample</h3>
+                    <p class="product__card-price">$ 10.000</p>
+                    <a href="./prt-00001.html" class="product__card-link">Ver mas...</a>
+                </div>
+                <div class="product__card flex__column">
+                        <a href="./prt-00001.html"><img src="../assets/img/products/ryzen-5-5600g.jpg" alt="product"></a>
+                        <h3 class="product__card-title">product title sample</h3>
+                        <p class="product__card-price">$ 10.000</p>
+                        <a href="./prt-00001.html" class="product__card-link">Ver mas...</a>
+                </div>
+                <div class="product__card flex__column">
+                    <a href="./prt-00001.html"><img src="../assets/img/products/ryzen-5-5600g.jpg" alt="product"></a>
+                    <h3 class="product__card-title">product title sample</h3>
+                    <p class="product__card-price">$ 10.000</p>
+                    <a href="./prt-00001.html" class="product__card-link">Ver mas...</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer__addr">
+          <h1 class="footer__logo">Bluebyte Inc.</h1>
+              
+          <h2>Contacto</h2>
+          
+          <address>
+            Calle 10 y 11 Sector Quinta Veléz, Cúcuta, Norte de Santander<br>
+            <a class="footer__btn" href="mailto:diegogarciag63@gmail.com">Envianos un correo!</a>
+          </address>
+        </div>
+        
+        <ul class="footer__nav">
+            <li class="nav__item">     
+                <ul class="nav__ul">
+                    <li>
+                        <a href="#">¿Quiénes Somos?</a>
+                    </li>
+      
+                    <li>
+                        <a href="#">Nuestras Tiendas</a>
+                    </li>
+                  
+                    <li>
+                        <a href="#">Programa de fidelidad</a>
+                    </li>
+                    
+                    <li>
+                        <a href="#">Contacto para mayoristas</a>
+                    </li>
+                </ul>
+            </li>   
+
+            <li class="nav__item">
+                <h2 class="nav__title">Legal</h2>
+            
+                <ul class="nav__ul">
+                    <li>
+                        <a href="#">Politicas de Privacidad</a>
+                    </li>
+              
+                    <li>
+                        <a href="#">Terminos y Condiciones</a>
+                    </li>
+              
+                    <li>
+                        <a href="#">Ubicacion en Mapa</a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+        
+        <div class="legal">
+          <p>&copy; 2022 Bluebyte. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="../js/scrollReveal.js" type="module"></script>
+</body>
+</html>
+

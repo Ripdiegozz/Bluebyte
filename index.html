@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bluebyte | Shop</title>
+    <link rel="stylesheet"  href="./assets/css/base/reset.css">
+    <link rel="stylesheet" href="./assets/css/base/base.css">
+    <link rel="stylesheet" href="./assets/css/header.css">
+    <link rel="stylesheet" href="./assets/css/components/showcase-main.css">
+    <link rel="stylesheet" href="./assets/css/products.css">
+    <link rel="stylesheet" href="./assets/css/components/product_card.css">
+    <link rel="stylesheet" href="./assets/css/products__preview.css">
+    <link rel="stylesheet" href="./assets/css/footer.css">
+    <link rel="shortcut icon" href="./assets/img/favicon.png" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/a8f367ec01.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@600;700&family=Martel&family=Montserrat:wght@400;700&family=Titillium+Web:ital,wght@0,600;1,600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header flex">
+        <nav class="nav__box">
+            <ul class="nav__menu flex">
+                <li class="nav__menu--btn">
+                    <a href="#">
+                        <h1 class="page-logo">BLUEBYTE</h1> 
+                    </a>
+                </li>
+                <li class="nav__menu--btn">
+                    <div class="search__group flex">
+                        <input type="text" name="search-bar" id="search-bar" class="search-bar" placeholder="Buscar un producto...">
+                        <button name="search-bar" type="submit" class="search__btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+                    </div>
+                </li>
+                <li class="nav__menu--btn flex">
+                    <a href="./login.html">
+                        <div class="flex sign-in">
+                            <i class="fa-solid fa-circle-user"></i>
+                            <div class="sign__in-btn__text flex">
+                                <p>Entrar</p>
+                            </div>
+                        </div>
+                    </a>
+                    <i class="fa-solid fa-cart-shopping cart-btn"></i>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container flex__column">
+        <section class="showcase__box flex">
+            <div class="showcase__title flex__column">
+                <h2>Ya disponible en nuestra tienda<br>Colaboracion Asus ROG x Evangelion</h2>
+                <p>ROG y Studio ©khara traen la comunión de jugadores y máquinas con la colección EVANGELION. Republic of Gamers lanza nuevos equipos para el proyecto EVANGELION, con tecnología en placas base, tarjetas gráficas, gabinetes gamer, refrigeradores "todo en uno", monitores para juegos, periféricos y equipos. Construye la máquina EVA y sincronízala con EVA-01.</p>
+                <a href="./products.html" class="flex">Compra ahora!<i class="fa-solid fa-arrow-right-long"></i></a>
+            </div>
+                <div class="showcase__img flex__column">
+                    <img src="./assets/img/1366_2000-removebg-preview.png" alt="Evgangelion x ROG products" class="evangelion-products">
+                </div>
+        </section>
+        <section class="products__row">
+            <div class="products__header flex">
+                <h2>Populares</h2>
+                <a href="./products.html">Ver todos<i class="fa-solid fa-arrow-right-long"></i></a>
+            </div>
+            <div class="cards__box flex">
+                <div class="product__card flex__column">
+                    <a href="./products/prt-00001.html" class="product__image--box"><img src="./assets/img/products/ryzen-5-5600g.jpg" alt="product"></a>
+                    <h3 class="product__card-title">product title sample</h3>
+                    <p class="product__card-price">$ 10.000</p>
+                    <a href="./products/prt-00001.html" class="product__card-link">Ver mas...</a>
+                </div>
+                <div class="product__card flex__column">
+                    <a href="./products/prt-00001.html" class="product__image--box"><img src="./assets/img/products/power-supply/1.jpg" alt="product"></a>
+                    <h3 class="product__card-title">product title sample</h3>
+                    <p class="product__card-price">$ 10.000</p>
+                    <a href="./products/prt-00001.html" class="product__card-link">Ver mas...</a>
+                </div>
+                <div class="product__card flex__column">
+                    <a href="./products/prt-00001.html" class="product__image--box"><img src="./assets/img/products/m-proccesors/2.jpg" alt="product"></a>
+                    <h3 class="product__card-title">product title sample</h3>
+                    <p class="product__card-price">$ 10.000</p>
+                    <a href="./products/prt-00001.html" class="product__card-link">Ver mas...</a>
+                </div>
+                <div class="product__card flex__column">
+                        <a href="./products/prt-00001.html" class="product__image--box"><img src="./assets/img/products/g-cards/5.jpg" alt="product"></a>
+                        <h3 class="product__card-title">product title sample</h3>
+                        <p class="product__card-price">$ 10.000</p>
+                        <a href="./products/prt-00001.html" class="product__card-link">Ver mas...</a>
+                </div>
+                <div class="product__card flex__column">
+                    <a href="./products/prt-00001.html" class="product__image--box"><img src="./assets/img/products/builds/1.png" alt="product"></a>
+                    <h3 class="product__card-title">product title sample</h3>
+                    <p class="product__card-price">$ 10.000</p>
+                    <a href="./products/prt-00001.html" class="product__card-link">Ver mas...</a>
+                </div>
+            </div>
+        </section>
+        <section class="products__preview flex">
+            <div class="preview__image--box">
+                <img src="./assets/img/products__preview/pakata-goh-RDolnHtjVCY-unsplash.jpg" alt="laptop-image">
+            </div>
+            <div class="preview__product--desc flex__column">
+                <h2>Tambien contamos con equipos para el trabajo, estudio o uso casual =)</h2>
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt culpa eum ea soluta. Consectetur accusamus, laudantium doloremque iusto rerum quasi architecto velit sint distinctio ratione placeat illo totam sed! Consectetur corrupti fuga quam, non impedit architecto qui, totam enim nesciunt numquam aliquid suscipit. Fuga ex eveniet voluptate incidunt. Eaque animi atque soluta dolor adipisci optio aliquid autem minus debitis tempore!
+                </p>
+                <a href="./products.html">Saber más<i class="fa-solid fa-arrow-right-long"></i></a>
+            </div>
+        </section>
+        <section class="products__row">
+            <div class="products__header flex">
+                <h2>Equipos pre-armados</h2>
+                <a href="./products.html">Ver todos<i class="fa-solid fa-arrow-right-long"></i></a>
+            </div>
+            <div class="cards__box flex">
+                <div class="product__card flex__column">
+                    <a href="./products/prt-00001.html" class="product__image--box"><img src="./assets/img/products/builds/1.png" alt="product"></a>
+                    <h3 class="product__card-title">product title sample</h3>
+                    <p class="product__card-price">$ 10.000</p>
+                    <a href="./products/prt-00001.html" class="product__card-link">Ver mas...</a>
+                </div>
+                <div class="product__card flex__column">
+                    <a href="./products/prt-00001.html" class="product__image--box"><img src="./assets/img/products/builds/2.jpg" alt="product"></a>
+                    <h3 class="product__card-title">product title sample</h3>
+                    <p class="product__card-price">$ 10.000</p>
+                    <a href="./products/prt-00001.html" class="product__card-link">Ver mas...</a>
+                </div>
+                <div class="product__card flex__column">
+                    <a href="./products/prt-00001.html" class="product__image--box"><img src="./assets/img/products/builds/3.jpg" alt="product"></a>
+                    <h3 class="product__card-title">product title sample</h3>
+                    <p class="product__card-price">$ 10.000</p>
+                    <a href="./products/prt-00001.html" class="product__card-link">Ver mas...</a>
+                </div>
+                <div class="product__card flex__column">
+                        <a href="./products/prt-00001.html" class="product__image--box"><img src="./assets/img/products/builds/4.jpg" alt="product"></a>
+                        <h3 class="product__card-title">product title sample</h3>
+                        <p class="product__card-price">$ 10.000</p>
+                        <a href="./products/prt-00001.html" class="product__card-link">Ver mas...</a>
+                </div>
+                <div class="product__card flex__column">
+                    <a href="./products/prt-00001.html" class="product__image--box"><img src="./assets/img/products/builds/5.jpg" alt="product"></a>
+                    <h3 class="product__card-title">product title sample</h3>
+                    <p class="product__card-price">$ 10.000</p>
+                    <a href="./products/prt-00001.html" class="product__card-link">Ver mas...</a>
+                </div>
+            </div>
+        </section>
+        <section class="products__row">
+            <div class="products__header flex">
+                <h2>Miroprocesadores</h2>
+                <a href="./products.html">Ver todos<i class="fa-solid fa-arrow-right-long"></i></a>
+            </div>
+            <div class="cards__box flex">
+                <div class="product__card flex__column">
+                    <a href="./products/prt-00001.html" class="product__image--box"><img src="./assets/img/products/ryzen-5-5600g.jpg" alt="product"></a>
+                    <h3 class="product__card-title">product title sample</h3>
+                    <p class="product__card-price">$ 10.000</p>
+                    <a href="./products/prt-00001.html" class="product__card-link">Ver mas...</a>
+                </div>
+                <div class="product__card flex__column">
+                    <a href="./products/prt-00001.html" class="product__image--box"><img src="./assets/img/products/m-proccesors/1.jpg" alt="product"></a>
+                    <h3 class="product__card-title">product title sample</h3>
+                    <p class="product__card-price">$ 10.000</p>
+                    <a href="./products/prt-00001.html" class="product__card-link">Ver mas...</a>
+                </div>
+                <div class="product__card flex__column">
+                    <a href="./products/prt-00001.html" class="product__image--box"><img src="./assets/img/products/m-proccesors/2.jpg" alt="product"></a>
+                    <h3 class="product__card-title">product title sample</h3>
+                    <p class="product__card-price">$ 10.000</p>
+                    <a href="./products/prt-00001.html" class="product__card-link">Ver mas...</a>
+                </div>
+                <div class="product__card flex__column">
+                        <a href="./products/prt-00001.html" class="product__image--box"><img src="./assets/img/products/m-proccesors/3.jpg" alt="product"></a>
+                        <h3 class="product__card-title">product title sample</h3>
+                        <p class="product__card-price">$ 10.000</p>
+                        <a href="./products/prt-00001.html" class="product__card-link">Ver mas...</a>
+                </div>
+                <div class="product__card flex__column">
+                    <a href="./products/prt-00001.html" class="product__image--box"><img src="./assets/img/products/m-proccesors/4.jpg" alt="product"></a>
+                    <h3 class="product__card-title">product title sample</h3>
+                    <p class="product__card-price">$ 10.000</p>
+                    <a href="./products/prt-00001.html" class="product__card-link">Ver mas...</a>
+                </div>
+            </div>
+        </section>
+        <section class="products__preview flex">
+            <div class="preview__product--desc flex__column">
+                <h2>Tambien contamos con equipos para el trabajo, estudio o uso casual =)</h2>
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt culpa eum ea soluta. Consectetur accusamus, laudantium doloremque iusto rerum quasi architecto velit sint distinctio ratione placeat illo totam sed! Consectetur corrupti fuga quam, non impedit architecto qui, totam enim nesciunt numquam aliquid suscipit. Fuga ex eveniet voluptate incidunt. Eaque animi atque soluta dolor adipisci optio aliquid autem minus debitis tempore!
+                </p>
+                <a href="./products.html">Saber más<i class="fa-solid fa-arrow-right-long"></i></a>
+            </div>
+            <div class="preview__image--box">
+                <img src="./assets/img/products__preview/pakata-goh-RDolnHtjVCY-unsplash.jpg" alt="laptop-image">
+            </div>
+        </section>
+        <section class="products__row">
+            <div class="products__header flex">
+                <h2>Graficas</h2>
+                <a href="./products.html">Ver todos<i class="fa-solid fa-arrow-right-long"></i></a>
+            </div>
+            <div class="cards__box flex">
+                <div class="product__card flex__column">
+                    <a href="./products/prt-00001.html" class="product__image--box"><img src="./assets/img/products/g-cards/1.jpg" alt="product"></a>
+                    <h3 class="product__card-title">product title sample</h3>
+                    <p class="product__card-price">$ 10.000</p>
+                    <a href="./products/prt-00001.html" class="product__card-link">Ver mas...</a>
+                </div>
+                <div class="product__card flex__column">
+                    <a href="./products/prt-00001.html" class="product__image--box"><img src="./assets/img/products/g-cards/2.jpg" alt="product"></a>
+                    <h3 class="product__card-title">product title sample</h3>
+                    <p class="product__card-price">$ 10.000</p>
+                    <a href="./products/prt-00001.html" class="product__card-link">Ver mas...</a>
+                </div>
+                <div class="product__card flex__column">
+                    <a href="./products/prt-00001.html" class="product__image--box"><img src="./assets/img/products/g-cards/3.png" alt="product"></a>
+                    <h3 class="product__card-title">product title sample</h3>
+                    <p class="product__card-price">$ 10.000</p>
+                    <a href="./products/prt-00001.html" class="product__card-link">Ver mas...</a>
+                </div>
+                <div class="product__card flex__column">
+                        <a href="./products/prt-00001.html" class="product__image--box"><img src="./assets/img/products/g-cards/4.png" alt="product"></a>
+                        <h3 class="product__card-title">product title sample</h3>
+                        <p class="product__card-price">$ 10.000</p>
+                        <a href="./products/prt-00001.html" class="product__card-link">Ver mas...</a>
+                </div>
+                <div class="product__card flex__column">
+                    <a href="./products/prt-00001.html" class="product__image--box"><img src="./assets/img/products/g-cards/5.jpg" alt="product"></a>
+                    <h3 class="product__card-title">product title sample</h3>
+                    <p class="product__card-price">$ 10.000</p>
+                    <a href="./products/prt-00001.html" class="product__card-link">Ver mas...</a>
+                </div>
+            </div>
+        </section>
+        <section class="products__row">
+            <div class="products__header flex">
+                <h2>Fuentes de poder</h2>
+                <a href="./products.html">Ver todos<i class="fa-solid fa-arrow-right-long"></i></a>
+            </div>
+            <div class="cards__box flex">
+                <div class="product__card flex__column">
+                    <a href="./products/prt-00001.html" class="product__image--box"><img src="./assets/img/products/power-supply/1.jpg" alt="product"></a>
+                    <h3 class="product__card-title">product title sample</h3>
+                    <p class="product__card-price">$ 10.000</p>
+                    <a href="./products/prt-00001.html" class="product__card-link">Ver mas...</a>
+                </div>
+                <div class="product__card flex__column">
+                    <a href="./products/prt-00001.html" class="product__image--box"><img src="./assets/img/products/power-supply/2.jpg" alt="product"></a>
+                    <h3 class="product__card-title">product title sample</h3>
+                    <p class="product__card-price">$ 10.000</p>
+                    <a href="./products/prt-00001.html" class="product__card-link">Ver mas...</a>
+                </div>
+                <div class="product__card flex__column">
+                    <a href="./products/prt-00001.html" class="product__image--box"><img src="./assets/img/products/power-supply/3.jpg" alt="product"></a>
+                    <h3 class="product__card-title">product title sample</h3>
+                    <p class="product__card-price">$ 10.000</p>
+                    <a href="./products/prt-00001.html" class="product__card-link">Ver mas...</a>
+                </div>
+                <div class="product__card flex__column">
+                        <a href="./products/prt-00001.html" class="product__image--box"><img src="./assets/img/products/power-supply/4.jpg" alt="product"></a>
+                        <h3 class="product__card-title">product title sample</h3>
+                        <p class="product__card-price">$ 10.000</p>
+                        <a href="./products/prt-00001.html" class="product__card-link">Ver mas...</a>
+                </div>
+                <div class="product__card flex__column">
+                    <a href="./products/prt-00001.html" class="product__image--box"><img src="./assets/img/products/power-supply/5.jpg" alt="product"></a>
+                    <h3 class="product__card-title">product title sample</h3>
+                    <p class="product__card-price">$ 10.000</p>
+                    <a href="./products/prt-00001.html" class="product__card-link">Ver mas...</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer__addr">
+          <h1 class="footer__logo">Bluebyte Inc.</h1>
+              
+          <h2>Contacto</h2>
+          
+          <address>
+            Calle 10 y 11 Sector Quinta Veléz, Cúcuta, Norte de Santander<br>
+            <a class="footer__btn" href="mailto:diegogarciag63@gmail.com">Envianos un correo!</a>
+          </address>
+        </div>
+        
+        <ul class="footer__nav">
+            <li class="nav__item">     
+                <ul class="nav__ul">
+                    <li>
+                        <a href="#">¿Quiénes Somos?</a>
+                    </li>
+      
+                    <li>
+                        <a href="#">Nuestras Tiendas</a>
+                    </li>
+                  
+                    <li>
+                        <a href="#">Programa de fidelidad</a>
+                    </li>
+                    
+                    <li>
+                        <a href="#">Contacto para mayoristas</a>
+                    </li>
+                </ul>
+            </li>   
+
+            <li class="nav__item">
+                <h2 class="nav__title">Legal</h2>
+            
+                <ul class="nav__ul">
+                    <li>
+                        <a href="#">Politicas de Privacidad</a>
+                    </li>
+              
+                    <li>
+                        <a href="#">Terminos y Condiciones</a>
+                    </li>
+              
+                    <li>
+                        <a href="#">Ubicacion en Mapa</a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+        
+        <div class="legal">
+          <p>&copy; 2022 Bluebyte. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="./js/scrollReveal.js" type="module"></script>
+</body>
+</html>
+
