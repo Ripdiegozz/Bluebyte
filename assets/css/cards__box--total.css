@@ -33,7 +33,8 @@
 }
 
 .cards__box--total{
-    justify-content: space-around;
+    justify-content: center;
     width: 95%;
     margin: 0 auto;
+    gap: 15px;
 }
